@@ -1,14 +1,10 @@
 module github.com/dfy167/log
 
-go 1.17
+go 1.20
 
 require (
-	go.uber.org/zap v1.19.1
-	gopkg.in/natefinch/lumberjack.v2 v2.0.0
+	go.uber.org/zap v1.26.0
+	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 )
 
-require (
-	github.com/BurntSushi/toml v0.4.1 // indirect
-	go.uber.org/atomic v1.9.0 // indirect
-	go.uber.org/multierr v1.7.0 // indirect
-)
+require go.uber.org/multierr v1.11.0 // indirect
